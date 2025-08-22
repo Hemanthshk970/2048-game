@@ -1,4 +1,4 @@
-FROM httpd:2.4
+FROM ubuntu
 WORKDIR /app
-COPY . /usr/local/apache2/htdocs/
+COPY . .
 
